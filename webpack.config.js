@@ -5,5 +5,16 @@ module.exports = {
   },
   output: {
     filename: "src/build/[name].js"
+  },
+  module: {
+    loaders: [
+      {
+        test: /.js$/,
+        loader: "babel-loader",
+        query: {
+          presets: ["es2015", "react"]
+        }
+      }
+    ]
   }
-}
+};
