@@ -1,0 +1,18 @@
+{
+  "name": "vdorbs-starter-kit",
+  "version": "1.0.0",
+  "description": "Node.js development starter kit",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vdorbs/vdorbs-starter-kit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vdorbs/vdorbs-starter-kit/issues"
+  },
+  "homepage": "https://github.com/vdorbs/vdorbs-starter-kit#readme"
+}
