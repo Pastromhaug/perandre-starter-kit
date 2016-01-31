@@ -64,6 +64,9 @@ vdorbs-starter-kit uses [webpack](https://webpack.github.io/) to build Node.js p
 #### Mocha
 [Mocha](https://mochajs.org/) is a tool for unit testing Javascript. vdorbs-starter-kit also uses the [Chai](http://chaijs.com/guide/) plugin for Mocha for additions like assertions.
 
+#### Firebase
+[Firebase](https://www.firebase.com/) is a JSON-based NoSQL database management system that uses web sockets for data access. [ReactFire](https://www.firebase.com/docs/web/libraries/react/) is a mixin for React.
+
 ### Usage
 vdorbs-starter-kit uses npm to perform the following actions (Note: commands should be run from the repo root):
 
