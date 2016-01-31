@@ -4,7 +4,8 @@
   "description": "Node.js development starter kit",
   "scripts": {
     "test": "mocha src/build/test.js",
-    "build": "webpack"
+    "build": "webpack",
+    "build:dev": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -23,7 +24,8 @@
     "babel-preset-react": "^6.3.13",
     "chai": "^3.5.0",
     "mocha": "^2.4.5",
-    "webpack": "^1.12.12"
+    "webpack": "^1.12.12",
+    "webpack-dev-server": "^1.14.1"
   },
   "dependencies": {
     "react": "^0.14.7",
