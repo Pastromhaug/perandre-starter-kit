@@ -53,7 +53,7 @@ vdorbs-starter-kit uses [webpack](https://webpack.github.io/) to build Node.js p
 └── ...
 ```
 
-`main.js` and `main.test.js` are the entry points for the application and unit testing, respectively. Those files and all dependencies are packaged into `bundle.js` and `test.js`, respectively. Building and testing is outlined further in Usage.
+`main.js` and `main.test.js` are the entry points for the application and unit testing, respectively. Those files and all dependencies are packaged into `bundle.js` and `test.js`, respectively. Building and testing is outlined further in Usage. vdorbs-starter-kit also uses webpack-dev-server to watch changes to `main.js` and `main.test.js` and serve the directory locally (by default at port 8080). Additional details in Usage.
 
 #### Babel
 [Babel](https://babeljs.io/) compiles ES2015 down to ES5 Javascript, which is currently supported by most browsers. vdorbs-starter-kit also invokes a Babel preset for compiling JSX files, the format used for building React applications.
@@ -68,6 +68,8 @@ vdorbs-starter-kit uses [webpack](https://webpack.github.io/) to build Node.js p
 vdorbs-starter-kit uses npm to perform the following actions (Note: commands should be run from the repo root):
 
 `npm run build` builds the project
+
+`npm run build:dev` builds the project, watches the source directory for changes, and serves the directory [here](http://localhost:8080/).
 
 `npm test` runs Mocha tests
 
